@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E316188516FB1A4500C826C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E316188416FB1A4500C826C2 /* UIKit.framework */; };
+		E316188716FB1A4500C826C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E316188616FB1A4500C826C2 /* Foundation.framework */; };
+		E316188916FB1A4500C826C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E316188816FB1A4500C826C2 /* CoreGraphics.framework */; };
+		E316188F16FB1A4500C826C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E316188D16FB1A4500C826C2 /* InfoPlist.strings */; };
+		E316189116FB1A4500C826C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E316189016FB1A4500C826C2 /* main.m */; };
+		E316189516FB1A4500C826C2 /* RSLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E316189416FB1A4500C826C2 /* RSLAppDelegate.m */; };
+		E316189716FB1A4500C826C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E316189616FB1A4500C826C2 /* Default.png */; };
+		E316189916FB1A4500C826C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E316189816FB1A4500C826C2 /* Default@2x.png */; };
+		E316189B16FB1A4500C826C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E316189A16FB1A4500C826C2 /* Default-568h@2x.png */; };
+		E316189E16FB1A4500C826C2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E316189C16FB1A4500C826C2 /* MainStoryboard_iPhone.storyboard */; };
+		E31618A116FB1A4500C826C2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E316189F16FB1A4500C826C2 /* MainStoryboard_iPad.storyboard */; };
+		E31618A416FB1A4500C826C2 /* RSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31618A316FB1A4500C826C2 /* RSLViewController.m */; };
+		E31618AC16FB1A4500C826C2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31618AB16FB1A4500C826C2 /* SenTestingKit.framework */; };
+		E31618AD16FB1A4500C826C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E316188416FB1A4500C826C2 /* UIKit.framework */; };
+		E31618AE16FB1A4500C826C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E316188616FB1A4500C826C2 /* Foundation.framework */; };
+		E31618B616FB1A4500C826C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E31618B416FB1A4500C826C2 /* InfoPlist.strings */; };
+		E31618B916FB1A4500C826C2 /* rsl3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31618B816FB1A4500C826C2 /* rsl3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E31618AF16FB1A4500C826C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E316187716FB1A4500C826C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E316187F16FB1A4500C826C2;
+			remoteInfo = rsl3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E316188016FB1A4500C826C2 /* rsl3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rsl3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E316188416FB1A4500C826C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E316188616FB1A4500C826C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E316188816FB1A4500C826C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E316188C16FB1A4500C826C2 /* rsl3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rsl3-Info.plist"; sourceTree = "<group>"; };
+		E316188E16FB1A4500C826C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E316189016FB1A4500C826C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E316189216FB1A4500C826C2 /* rsl3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rsl3-Prefix.pch"; sourceTree = "<group>"; };
+		E316189316FB1A4500C826C2 /* RSLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSLAppDelegate.h; sourceTree = "<group>"; };
+		E316189416FB1A4500C826C2 /* RSLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSLAppDelegate.m; sourceTree = "<group>"; };
+		E316189616FB1A4500C826C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E316189816FB1A4500C826C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E316189A16FB1A4500C826C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E316189D16FB1A4500C826C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E31618A016FB1A4500C826C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E31618A216FB1A4500C826C2 /* RSLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSLViewController.h; sourceTree = "<group>"; };
+		E31618A316FB1A4500C826C2 /* RSLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSLViewController.m; sourceTree = "<group>"; };
+		E31618AA16FB1A4500C826C2 /* rsl3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rsl3Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31618AB16FB1A4500C826C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E31618B316FB1A4500C826C2 /* rsl3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rsl3Tests-Info.plist"; sourceTree = "<group>"; };
+		E31618B516FB1A4500C826C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E31618B716FB1A4500C826C2 /* rsl3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rsl3Tests.h; sourceTree = "<group>"; };
+		E31618B816FB1A4500C826C2 /* rsl3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rsl3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E316187D16FB1A4500C826C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E316188516FB1A4500C826C2 /* UIKit.framework in Frameworks */,
+				E316188716FB1A4500C826C2 /* Foundation.framework in Frameworks */,
+				E316188916FB1A4500C826C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31618A616FB1A4500C826C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31618AC16FB1A4500C826C2 /* SenTestingKit.framework in Frameworks */,
+				E31618AD16FB1A4500C826C2 /* UIKit.framework in Frameworks */,
+				E31618AE16FB1A4500C826C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E316187516FB1A4500C826C2 = {
+			isa = PBXGroup;
+			children = (
+				E316188A16FB1A4500C826C2 /* rsl3 */,
+				E31618B116FB1A4500C826C2 /* rsl3Tests */,
+				E316188316FB1A4500C826C2 /* Frameworks */,
+				E316188116FB1A4500C826C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E316188116FB1A4500C826C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E316188016FB1A4500C826C2 /* rsl3.app */,
+				E31618AA16FB1A4500C826C2 /* rsl3Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E316188316FB1A4500C826C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E316188416FB1A4500C826C2 /* UIKit.framework */,
+				E316188616FB1A4500C826C2 /* Foundation.framework */,
+				E316188816FB1A4500C826C2 /* CoreGraphics.framework */,
+				E31618AB16FB1A4500C826C2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E316188A16FB1A4500C826C2 /* rsl3 */ = {
+			isa = PBXGroup;
+			children = (
+				E316189316FB1A4500C826C2 /* RSLAppDelegate.h */,
+				E316189416FB1A4500C826C2 /* RSLAppDelegate.m */,
+				E316189C16FB1A4500C826C2 /* MainStoryboard_iPhone.storyboard */,
+				E316189F16FB1A4500C826C2 /* MainStoryboard_iPad.storyboard */,
+				E31618A216FB1A4500C826C2 /* RSLViewController.h */,
+				E31618A316FB1A4500C826C2 /* RSLViewController.m */,
+				E316188B16FB1A4500C826C2 /* Supporting Files */,
+			);
+			path = rsl3;
+			sourceTree = "<group>";
+		};
+		E316188B16FB1A4500C826C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E316188C16FB1A4500C826C2 /* rsl3-Info.plist */,
+				E316188D16FB1A4500C826C2 /* InfoPlist.strings */,
+				E316189016FB1A4500C826C2 /* main.m */,
+				E316189216FB1A4500C826C2 /* rsl3-Prefix.pch */,
+				E316189616FB1A4500C826C2 /* Default.png */,
+				E316189816FB1A4500C826C2 /* Default@2x.png */,
+				E316189A16FB1A4500C826C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E31618B116FB1A4500C826C2 /* rsl3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E31618B716FB1A4500C826C2 /* rsl3Tests.h */,
+				E31618B816FB1A4500C826C2 /* rsl3Tests.m */,
+				E31618B216FB1A4500C826C2 /* Supporting Files */,
+			);
+			path = rsl3Tests;
+			sourceTree = "<group>";
+		};
+		E31618B216FB1A4500C826C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E31618B316FB1A4500C826C2 /* rsl3Tests-Info.plist */,
+				E31618B416FB1A4500C826C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E316187F16FB1A4500C826C2 /* rsl3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31618BC16FB1A4500C826C2 /* Build configuration list for PBXNativeTarget "rsl3" */;
+			buildPhases = (
+				E316187C16FB1A4500C826C2 /* Sources */,
+				E316187D16FB1A4500C826C2 /* Frameworks */,
+				E316187E16FB1A4500C826C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rsl3;
+			productName = rsl3;
+			productReference = E316188016FB1A4500C826C2 /* rsl3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31618A916FB1A4500C826C2 /* rsl3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31618BF16FB1A4500C826C2 /* Build configuration list for PBXNativeTarget "rsl3Tests" */;
+			buildPhases = (
+				E31618A516FB1A4500C826C2 /* Sources */,
+				E31618A616FB1A4500C826C2 /* Frameworks */,
+				E31618A716FB1A4500C826C2 /* Resources */,
+				E31618A816FB1A4500C826C2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31618B016FB1A4500C826C2 /* PBXTargetDependency */,
+			);
+			name = rsl3Tests;
+			productName = rsl3Tests;
+			productReference = E31618AA16FB1A4500C826C2 /* rsl3Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E316187716FB1A4500C826C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RSL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Kartsev;
+			};
+			buildConfigurationList = E316187A16FB1A4500C826C2 /* Build configuration list for PBXProject "rsl3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E316187516FB1A4500C826C2;
+			productRefGroup = E316188116FB1A4500C826C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E316187F16FB1A4500C826C2 /* rsl3 */,
+				E31618A916FB1A4500C826C2 /* rsl3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E316187E16FB1A4500C826C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E316188F16FB1A4500C826C2 /* InfoPlist.strings in Resources */,
+				E316189716FB1A4500C826C2 /* Default.png in Resources */,
+				E316189916FB1A4500C826C2 /* Default@2x.png in Resources */,
+				E316189B16FB1A4500C826C2 /* Default-568h@2x.png in Resources */,
+				E316189E16FB1A4500C826C2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E31618A116FB1A4500C826C2 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31618A716FB1A4500C826C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31618B616FB1A4500C826C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E31618A816FB1A4500C826C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E316187C16FB1A4500C826C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E316189116FB1A4500C826C2 /* main.m in Sources */,
+				E316189516FB1A4500C826C2 /* RSLAppDelegate.m in Sources */,
+				E31618A416FB1A4500C826C2 /* RSLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31618A516FB1A4500C826C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31618B916FB1A4500C826C2 /* rsl3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31618B016FB1A4500C826C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E316187F16FB1A4500C826C2 /* rsl3 */;
+			targetProxy = E31618AF16FB1A4500C826C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E316188D16FB1A4500C826C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E316188E16FB1A4500C826C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E316189C16FB1A4500C826C2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E316189D16FB1A4500C826C2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E316189F16FB1A4500C826C2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31618A016FB1A4500C826C2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E31618B416FB1A4500C826C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31618B516FB1A4500C826C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E31618BA16FB1A4500C826C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E31618BB16FB1A4500C826C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E31618BD16FB1A4500C826C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rsl3/rsl3-Prefix.pch";
+				INFOPLIST_FILE = "rsl3/rsl3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E31618BE16FB1A4500C826C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rsl3/rsl3-Prefix.pch";
+				INFOPLIST_FILE = "rsl3/rsl3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E31618C016FB1A4500C826C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rsl3.app/rsl3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rsl3/rsl3-Prefix.pch";
+				INFOPLIST_FILE = "rsl3Tests/rsl3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E31618C116FB1A4500C826C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rsl3.app/rsl3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rsl3/rsl3-Prefix.pch";
+				INFOPLIST_FILE = "rsl3Tests/rsl3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E316187A16FB1A4500C826C2 /* Build configuration list for PBXProject "rsl3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31618BA16FB1A4500C826C2 /* Debug */,
+				E31618BB16FB1A4500C826C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31618BC16FB1A4500C826C2 /* Build configuration list for PBXNativeTarget "rsl3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31618BD16FB1A4500C826C2 /* Debug */,
+				E31618BE16FB1A4500C826C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E31618BF16FB1A4500C826C2 /* Build configuration list for PBXNativeTarget "rsl3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31618C016FB1A4500C826C2 /* Debug */,
+				E31618C116FB1A4500C826C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E316187716FB1A4500C826C2 /* Project object */;
+}
