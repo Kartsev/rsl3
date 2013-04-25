@@ -10,4 +10,5 @@
 
 @interface RSLViewController : UIViewController
 
+@property (nonatomic, retain)IBOutlet UIButton* fullSearchButton;
 @end
