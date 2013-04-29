@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface searchResultsViewController : UIViewController
+@interface searchResultsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic,retain) IBOutlet UITableView *tableView;
-@property (nonatomic,retain) NSArray *tableViewArray;
-@property (nonatomic,retain) NSMutableArray *array;
-@property (nonatomic,retain)  NSMutableData *webData;
+{
+
+
+}
+
+@property(nonatomic, retain) NSArray *tableViewArray;
+@property(nonatomic, retain) NSMutableArray *array;
+@property(nonatomic, retain) IBOutlet UITableView *tableView;
 @end

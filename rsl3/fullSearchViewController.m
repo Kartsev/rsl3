@@ -14,6 +14,8 @@
 @end
 
 @implementation fullSearchViewController
+@synthesize textView;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -99,7 +101,8 @@
     yearTillTF.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     [self.view addSubview:yearTillTF];
     // Do any additional setup after loading the view from its nib.
-}
+    
+   }
 
 - (void)didReceiveMemoryWarning
 {

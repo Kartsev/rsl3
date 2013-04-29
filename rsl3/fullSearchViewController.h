@@ -10,4 +10,5 @@
 
 @interface fullSearchViewController : UIViewController
 
+@property(nonatomic,retain)IBOutlet UITextView *textView;
 @end

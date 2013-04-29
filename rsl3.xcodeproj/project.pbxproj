@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30F6490172A91EE0048679B /* searchResultsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30F648F172A91EE0048679B /* searchResultsViewController.storyboard */; };
 		E316188516FB1A4500C826C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E316188416FB1A4500C826C2 /* UIKit.framework */; };
 		E316188716FB1A4500C826C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E316188616FB1A4500C826C2 /* Foundation.framework */; };
 		E316188916FB1A4500C826C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E316188816FB1A4500C826C2 /* CoreGraphics.framework */; };
@@ -25,11 +26,15 @@
 		E31618B616FB1A4500C826C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E31618B416FB1A4500C826C2 /* InfoPlist.strings */; };
 		E31618B916FB1A4500C826C2 /* rsl3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31618B816FB1A4500C826C2 /* rsl3Tests.m */; };
 		E31618C516FB1FE100C826C2 /* Screen Shot 2013-03-21 at 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E31618C416FB1FE100C826C2 /* Screen Shot 2013-03-21 at 2.png */; };
+		E319018E172E5A0A00BCC845 /* 1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E319018D172E5A0A00BCC845 /* 1-1.png */; };
+		E3190191172E612400BCC845 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E3190190172E612400BCC845 /* logo.png */; };
+		E3190193172E7AC600BCC845 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = E3190192172E7AC600BCC845 /* search.png */; };
+		E3190195172E9C9F00BCC845 /* notselectedcheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = E3190194172E9C9F00BCC845 /* notselectedcheckbox.png */; };
+		E3190197172E9CA500BCC845 /* selectedcheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = E3190196172E9CA500BCC845 /* selectedcheckbox.png */; };
 		E31A03D317006C1A00A78BFF /* filtersbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = E31A03D217006C1A00A78BFF /* filtersbutton.png */; };
 		E31A03D517006CDC00A78BFF /* collectionsbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = E31A03D417006CDC00A78BFF /* collectionsbutton.png */; };
 		E31A03D717006D6500A78BFF /* settingsbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = E31A03D617006D6500A78BFF /* settingsbutton.png */; };
 		E31BA24B1705A4F900ADE8D7 /* searchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31BA2491705A4F800ADE8D7 /* searchResultsViewController.m */; };
-		E31BA24C1705A4F900ADE8D7 /* searchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31BA24A1705A4F900ADE8D7 /* searchResultsViewController.xib */; };
 		E3F1BC0316FB243E0087852A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F1BC0216FB243E0087852A /* Default.png */; };
 		E3FAA08416FC866300FE3591 /* fullSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAA08216FC866300FE3591 /* fullSearchViewController.m */; };
 		E3FAA08516FC866300FE3591 /* fullSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FAA08316FC866300FE3591 /* fullSearchViewController.xib */; };
@@ -47,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E30F648F172A91EE0048679B /* searchResultsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = searchResultsViewController.storyboard; sourceTree = "<group>"; };
 		E316188016FB1A4500C826C2 /* rsl3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rsl3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E316188416FB1A4500C826C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E316188616FB1A4500C826C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,12 +77,16 @@
 		E31618B716FB1A4500C826C2 /* rsl3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rsl3Tests.h; sourceTree = "<group>"; };
 		E31618B816FB1A4500C826C2 /* rsl3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rsl3Tests.m; sourceTree = "<group>"; };
 		E31618C416FB1FE100C826C2 /* Screen Shot 2013-03-21 at 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2013-03-21 at 2.png"; path = "../../../Desktop/Screen Shot 2013-03-21 at 2.png"; sourceTree = "<group>"; };
+		E319018D172E5A0A00BCC845 /* 1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1-1.png"; path = "../../Downloads/ios-non-retina/1-1.png"; sourceTree = "<group>"; };
+		E3190190172E612400BCC845 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../Downloads/ios-non-retina/logo.png"; sourceTree = "<group>"; };
+		E3190192172E7AC600BCC845 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = "../../Downloads/ios-non-retina/search.png"; sourceTree = "<group>"; };
+		E3190194172E9C9F00BCC845 /* notselectedcheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = notselectedcheckbox.png; path = "../../Downloads/ios-non-retina/notselectedcheckbox.png"; sourceTree = "<group>"; };
+		E3190196172E9CA500BCC845 /* selectedcheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = selectedcheckbox.png; path = "../../Downloads/ios-non-retina/selectedcheckbox.png"; sourceTree = "<group>"; };
 		E31A03D217006C1A00A78BFF /* filtersbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = filtersbutton.png; path = ../../Desktop/filtersbutton.png; sourceTree = "<group>"; };
 		E31A03D417006CDC00A78BFF /* collectionsbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = collectionsbutton.png; path = ../../Desktop/collectionsbutton.png; sourceTree = "<group>"; };
 		E31A03D617006D6500A78BFF /* settingsbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settingsbutton.png; path = ../../Desktop/settingsbutton.png; sourceTree = "<group>"; };
 		E31BA2481705A4F800ADE8D7 /* searchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchResultsViewController.h; sourceTree = "<group>"; };
 		E31BA2491705A4F800ADE8D7 /* searchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchResultsViewController.m; sourceTree = "<group>"; };
-		E31BA24A1705A4F900ADE8D7 /* searchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = searchResultsViewController.xib; sourceTree = "<group>"; };
 		E3F1BC0216FB243E0087852A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E3FAA08116FC866300FE3591 /* fullSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fullSearchViewController.h; sourceTree = "<group>"; };
 		E3FAA08216FC866300FE3591 /* fullSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fullSearchViewController.m; sourceTree = "<group>"; };
@@ -112,9 +122,14 @@
 			isa = PBXGroup;
 			children = (
 				E3F1BC0216FB243E0087852A /* Default.png */,
+				E3190194172E9C9F00BCC845 /* notselectedcheckbox.png */,
+				E3190196172E9CA500BCC845 /* selectedcheckbox.png */,
 				E31A03D417006CDC00A78BFF /* collectionsbutton.png */,
+				E319018D172E5A0A00BCC845 /* 1-1.png */,
 				E31A03D217006C1A00A78BFF /* filtersbutton.png */,
+				E3190192172E7AC600BCC845 /* search.png */,
 				E31A03D617006D6500A78BFF /* settingsbutton.png */,
+				E3190190172E612400BCC845 /* logo.png */,
 				E316188A16FB1A4500C826C2 /* rsl3 */,
 				E31618B116FB1A4500C826C2 /* rsl3Tests */,
 				E316188316FB1A4500C826C2 /* Frameworks */,
@@ -158,7 +173,7 @@
 				E3FAA08316FC866300FE3591 /* fullSearchViewController.xib */,
 				E31BA2481705A4F800ADE8D7 /* searchResultsViewController.h */,
 				E31BA2491705A4F800ADE8D7 /* searchResultsViewController.m */,
-				E31BA24A1705A4F900ADE8D7 /* searchResultsViewController.xib */,
+				E30F648F172A91EE0048679B /* searchResultsViewController.storyboard */,
 				E316188B16FB1A4500C826C2 /* Supporting Files */,
 			);
 			path = rsl3;
@@ -282,7 +297,12 @@
 				E31A03D317006C1A00A78BFF /* filtersbutton.png in Resources */,
 				E31A03D517006CDC00A78BFF /* collectionsbutton.png in Resources */,
 				E31A03D717006D6500A78BFF /* settingsbutton.png in Resources */,
-				E31BA24C1705A4F900ADE8D7 /* searchResultsViewController.xib in Resources */,
+				E30F6490172A91EE0048679B /* searchResultsViewController.storyboard in Resources */,
+				E319018E172E5A0A00BCC845 /* 1-1.png in Resources */,
+				E3190191172E612400BCC845 /* logo.png in Resources */,
+				E3190193172E7AC600BCC845 /* search.png in Resources */,
+				E3190195172E9C9F00BCC845 /* notselectedcheckbox.png in Resources */,
+				E3190197172E9CA500BCC845 /* selectedcheckbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
