@@ -17,7 +17,7 @@
 
 @implementation searchResultsViewController
 
-@synthesize tableViewArray,array,tableView;
+@synthesize tableViewArray,array,tableView,navBar;
 
 
 - (void)viewDidLoad
@@ -38,6 +38,22 @@
     //[tableView reloadData];
 
     [self addCell];
+    
+    
+    UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:@"Detail"];
+    /*
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 70, 30)];
+    
+    [button addTarget:self action:@selector(dismissView:)forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *buttonItem = [[UIBarButtonItem alloc]
+                                   initWithCustomView:button];
+    
+    navigationItem.leftBarButtonItem = buttonItem;
+    
+
+    [navBar pushNavigationItem:navigationItem animated:YES];*/
+    self.navigationItem.hidesBackButton = NO;
 }
 
 

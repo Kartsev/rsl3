@@ -18,4 +18,5 @@
 @property(nonatomic, retain) NSArray *tableViewArray;
 @property(nonatomic, retain) NSMutableArray *array;
 @property(nonatomic, retain) IBOutlet UITableView *tableView;
+@property(nonatomic, retain) IBOutlet UINavigationBar *navBar;
 @end
